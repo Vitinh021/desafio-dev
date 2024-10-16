@@ -31,9 +31,9 @@ php spark migrate --all
 ```
 
 ## Acessar endpoints da API
-[GET] [http://localhost:8080/public/listar](http://localhost:8080/public/listar)
-[GET] [http://localhost:8080/public/listarLojas](http://localhost:8080/public/listarLojas)
-[POST] [http://localhost:8080/public/upload](http://localhost:8080/public/upload)
+- [GET] [http://localhost:8080/public/listar](http://localhost:8080/public/listar)
+- [GET] [http://localhost:8080/public/listarLojas](http://localhost:8080/public/listarLojas)
+- [POST] [http://localhost:8080/public/upload](http://localhost:8080/public/upload)
 - Anexar o arquivo.txt na aba de body:form-data
 - Anexar na aba Headers uma "key=token e Value=123"
 - Foi utilizado o Postman para tratar as requisições
